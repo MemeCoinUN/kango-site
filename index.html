@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>KANGO • Powered by AI</title>
+<meta name="theme-color" content="#0a1426">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@500;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div id="bg"></div>
+<canvas id="circuit"></canvas>
+
+<header class="nav">
+  <div class="brand">KANGO</div>
+  <nav class="links">
+    <a id="moonshotLink" target="_blank" rel="noreferrer">Moonshot</a>
+    <a id="dexLink" target="_blank" rel="noreferrer">Dexscreener</a>
+  </nav>
+</header>
+
+<section id="hero" class="hero">
+  <div class="hero-figure"><img src="assets/hero-kango-face.png" alt="KANGO"></div>
+  <div class="hero-copy">
+    <h1>KANGO — The Algorithm That Fights Back</h1>
+    <p>Forged in code. <b>Powered by AI</b>.</p>
+    <div class="cta row">
+      <a id="moonshotHero" class="btn" target="_blank" rel="noreferrer">Moonshot</a>
+      <a id="dexHero" class="btn" target="_blank" rel="noreferrer">Dexscreener</a>
+    </div>
+    <div class="ca-bar">
+      <code id="caText"></code>
+      <button id="copyCA" class="copy">Copy</button>
+    </div>
+    <div class="powered">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 3h10l4 4v10l-4 4H7l-4-4V7l4-4zm9 6H8v6h8V9zM9 5h6l2 2H7l2-2z" /></svg>
+      <span>Powered by AI</span>
+    </div>
+  </div>
+</section>
+
+<section id="about" class="panel card">
+  <h2>About KANGO</h2>
+  <p><b>K.A.N.G.O.</b> = <b>Kinetic • Artificial • Neural • Guardian • Operator</b></p>
+  <p><b>Origin:</b> KANGO began as a defensive algorithm designed to learn from on‑chain behavior in real time. The goal: protect holders and reward conviction.</p>
+  <p><b>How it thinks:</b> KANGO ingests live market, wallet cluster and social signals. It converts these into adaptive actions — alerts, filters and community tools.</p>
+  <p><b>Values:</b> Transparency, community ownership and relentless iteration. No hype without shipping. Every punch is data. Every move is an algorithm.</p>
+</section>
+
+<section id="chart" class="panel card">
+  <h2>Live Price Action</h2>
+  <div class="chart-wrap slim">
+    <iframe id="dexFrame" title="Dexscreener" frameborder="0" allowfullscreen loading="lazy"></iframe>
+  </div>
+  <div class="chart-note">Tip: tap the Dexscreener logo to open full-screen.</div>
+</section>
+
+<section id="roadmap" class="panel card">
+  <h2>Roadmap</h2>
+  <div id="roadmapApp" class="roadmap">
+    <div class="rm-loading">Loading roadmap…</div>
+  </div>
+</section>
+  <h2>Roadmap</h2>
+  <ol class="steps">
+    <li><b>Phase 1 — Launch</b> • Site live, socials, fair launch</li>
+    <li><b>Phase 2 — Liquidity</b> • Listings + trackers</li>
+    <li><b>Phase 3 — Culture</b> • Meme contests, raids, partners</li>
+    <li><b>Phase 4 — Expansion</b> • AI tools, community utilities</li>
+  </ol>
+</section>
+
+<section id="solutions" class="panel card">
+  <h2>Solutions (AI Protocols)</h2>
+  <div class="grid">
+    <article><h3>Guardian Shield</h3><p>Anti‑bot & anti‑snipe via anomaly detection.</p></article>
+    <article><h3>On‑Chain Radar</h3><p>Wallet cluster & MEV behavior alerts.</p></article>
+    <article><h3>Sentiment Engine</h3><p>AI momentum signals for timing moves.</p></article>
+    <article><h3>Fraud Watch</h3><p>Look‑alike contract & phishing detection.</p></article>
+    <article><h3>Liquidity Scout</h3><p>Predictive alerts on pools & pairs.</p></article>
+    <article><h3>Meme Forge</h3><p>Auto brand templates for the community.</p></article>
+  </div>
+</section>
+
+<footer class="foot">© <span id="year"></span> KANGO.AI</footer>
+
+<script src="config.js"></script>
+<script src="scripts.js"></script>
+</body>
+</html>
