@@ -8,8 +8,7 @@ a{text-decoration:none;color:#e8f6ff}
 .brand{font-weight:900;letter-spacing:.06em}
 .btn{display:inline-block;padding:12px 16px;border-radius:12px;border:1px solid rgba(56,192,255,.35);background:linear-gradient(180deg,#1aa6ff,#0e8de2);box-shadow:0 0 18px var(--glow);min-width:150px;text-align:center}
 .btn.ghost{background:transparent}
-.hero{min-height:92vh;display:grid;place-items:center;text-align:center;padding:28px 16px;position:relative;overflow:hidden}
-.hero-figure{position:absolute;top:6vh;left:50%;transform:translateX(-50%);width:min(95vw,980px);filter:drop-shadow(0 0 28px rgba(56,192,255,.55)) drop-shadow(0 0 60px rgba(56,192,255,.25))}
+.hero{min-height:92vh;display:grid;place-items:center;}.hero-figure{position:absolute;top:6vh;left:50%;transform:translateX(-50%);width:min(95vw,980px);filter:drop-shadow(0 0 28px rgba(56,192,255,.55)) drop-shadow(0 0 60px rgba(56,192,255,.25))}
 .hero-figure img{width:100%;height:auto;pointer-events:none;user-select:none;transform-origin:center top}
 .hero-copy{position:relative;z-index:1;max-width:980px;margin-top:min(58vh,520px)}
 .hero h1{font-size:clamp(28px,7vw,56px);margin:0 0 6px;text-shadow:0 0 22px rgba(56,192,255,.5)}
