@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+  <title>KANGO — Powered by AI</title>
+  <meta name="theme-color" content="#071325" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div id="bg"></div>
+  <canvas id="circuit"></canvas>
+
+  <!-- Top: BUY LINKS/CA -->
+  <header class="nav">
+    <div class="brand">KANGO</div>
+    <nav class="links">
+      <a href="#buy">Buy</a>
+      <a href="#about">About</a>
+      <a href="#roadmap">Roadmap</a>
+      <a href="#moonshot">Moonshot</a>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-figure">
+      <img src="./assets/kango_hero.png" alt="KANGO Hero">
+    </div>
+    <div class="hero-copy">
+      <h1>KANGO — The Algorithm That Fights Back</h1>
+      <p>Forged in code. <b>Powered by AI.</b></p>
+    </div>
+  </section>
+
+  <!-- BUY -->
+  <section id="buy" class="panel card">
+    <h2>Buy KANGO</h2>
+    <div class="cta row">
+      <a id="moonshotBuy" class="btn" target="_blank" rel="noreferrer">Moonshot (Direct)</a>
+      <a id="dexBtn" class="btn ghost" target="_blank" rel="noreferrer">Dexscreener</a>
+      <a id="birdeyeBtn" class="btn ghost" target="_blank" rel="noreferrer">Birdeye</a>
+    </div>
+
+    <div class="ca-bar">
+      <label>Contract:</label>
+      <code id="caText"></code>
+      <button id="copyCA" class="copy">Copy</button>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="panel card">
+    <h2>About KANGO</h2>
+    <p><b>K.A.N.G.O.</b> = <b>Kinetic • Artificial • Neural • Guardian • Operator</b></p>
+    <p><b>Origins.</b> KANGO began as a defensive, self-adapting on-chain algorithm. It studies market microstructure, wallet clusters and social signals to <i>learn</i>, <i>adapt</i> and <i>fight back</i> for holders.</p>
+    <p><b>How it thinks.</b> Streaming data → vector features → anomaly detection + confidence scoring. Outputs power community actions: alerts, guardrails, filters and automation.</p>
+    <p><b>Value.</b> Cleaner launches, faster signal detection, and culture engineered by automation.</p>
+  </section>
+
+  <!-- ROADMAP -->
+  <section id="roadmap" class="panel card">
+    <h2>Roadmap</h2>
+    <ol class="rm">
+      <li>
+        <b>Phase 1 — Launch</b>
+        <ul>
+          <li>Site live (GitHub Pages), socials verified</li>
+          <li>Direct buy links + CA tools (copy, QR)</li>
+          <li>Content engine (memes, quests)</li>
+        </ul>
+      </li>
+      <li>
+        <b>Phase 2 — Liquidity & Listings</b>
+        <ul>
+          <li>Pool growth & health monitors</li>
+          <li>Trackers: Dexscreener, Birdeye, Moonshot features</li>
+          <li>Guardian shields for snipes & bots (heuristics v1)</li>
+        </ul>
+      </li>
+      <li>
+        <b>Phase 3 — Culture & Utility</b>
+        <ul>
+          <li>Meme contests, raids, partners</li>
+          <li>On-chain Radar: wallet cluster alerts, MEV signals</li>
+          <li>Sentiment Engine: social embeddings → heat map</li>
+        </ul>
+      </li>
+      <li>
+        <b>Phase 4 — Expansion</b>
+        <ul>
+          <li>Fraud Watch: anomaly + link safety</li>
+          <li>Public dashboards + alerts bot</li>
+          <li>Tooling for creators & community utilities</li>
+        </ul>
+      </li>
+    </ol>
+  </section>
+
+  <!-- BOTTOM: MOONSHOT -->
+  <section id="moonshot" class="panel card">
+    <h2>Moonshot — Live Page</h2>
+    <div class="chart-wrap">
+      <iframe id="moonshotFrame" title="Moonshot" frameborder="0" allowfullscreen loading="lazy"></iframe>
+    </div>
+    <div class="chart-note">If the embed is clipped, tap to open full on Moonshot.</div>
+  </section>
+
+  <footer>© KANGO — Powered by AI</footer>
+
+  <script src="./config.js"></script>
+  <script src="./scripts.js"></script>
+</body>
+</html>
